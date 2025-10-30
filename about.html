@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="c:\Users\Smart\Pictures\logo.jfif"></a>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contact.html">CONTACTS</a></li>
+                    <li><a href="donation.html">DONATION</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+</section>
+
+<section class="about-us">
+    
+    <div class="row">
+        <div class="about-col">
+            <h1>Temple Story</h1>
+            <p>The Vithal–Rakhumai Temple in Pandharpur Village was founded over 50 years ago by devoted 
+                villagers. The temple has been the spiritual heart of our community, guiding generations 
+                toward peace and devotion.</p>
+                <br>
+            <h1>Our Vision</h1>
+            <p>We are constructing a new temple to serve more devotees and preserve our cultural and 
+                spiritual heritage.</p>
+                <br>
+            <h1>About Pundharpur Village</h1>
+            <p>Pundharpur Village is a serene and vibrant community located in the heart of Maharashtra. Known 
+                for its unity and culture, the village celebrates Kartiki Ekadashi with great devotion every 
+                year.</p>
+                <br>
+                <a href="" class="hero-btn red-btn">explore now</a>
+        </div>
+        <div class="about-col">
+            <img src="c:\Users\Smart\Pictures\Saved Pictures\mauli.PNG">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Vithal–Rakhumai Temple Trust <br>
+        pandharpur Village, Taluka solapur,District solapur, Maharashtra,<br> India 
+    Phone: +91-9876543210 
+    Email: templetrust@abc.com 
+        contact:984756201
+        Email:pandharpur@3425</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by the Temple Trust</p>
+</section>
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>

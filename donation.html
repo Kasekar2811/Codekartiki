@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation - Vithal–Rakhumai Temple</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="c:/Users/Smart/Pictures/logo.jfif" alt="Temple Logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="donation.html">DONATION</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Donation</h1>
+</section>
+
+
+<section class="donation">
+    <h2>Donation Appeal</h2>
+    <p>Support our dream to build a new temple for Lord Vithal and Goddess Rakhumai. 
+        Every rupee counts in this divine mission!</p>
+
+    
+    <div class="donation-box">
+        <h3>Progress</h3>
+        <p><b>₹2,50,000</b> raised out of <b>₹10,00,000</b> goal</p>
+    </div>
+</section>
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Vithal–Rakhumai Temple Trust, Pandharpur<br>
+       Phone: +91-9876543210 | Email: templetrust@abc.com</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by the Temple Trust</p>
+</section>
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
