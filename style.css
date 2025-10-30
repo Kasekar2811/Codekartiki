@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(30, 23, 4, 0.7),rgba(30, 22, 4, 0.7)),url(../../Pictures/banner.png);
+    background-image: linear-gradient(rgba(30, 23, 4, 0.7),rgba(30, 22, 4, 0.7)),url("./image/banner.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -201,7 +201,7 @@ h3{
 .contact{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../Pictures/contact_us.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./image/contact_us.webp");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -246,12 +246,11 @@ h3{
 
 
 .sub-header{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../../Pictures/aboutus.jpg);
+    background-image: linear-gradient(rgba(30, 23, 4, 0.7),rgba(30, 22, 4, 0.7)),url("./image/banner.png");
     background-position: center;
     background-size: cover;
-    text-align: center;
     color: #fff;
 }
 .sub-header h1{
