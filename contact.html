@@ -1,98 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>university</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<section class="sub-header">
-        <nav>
-            <a href="index.html"><img src="c:\Users\Smart\Pictures\logo.jfif"></a>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="events.html">EVENTS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="donation.html">DONATION</a></li>
-                    
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <h1>Contact</h1>
-</section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vithal–Rakhumai Temple</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sub-header-contact">
+      <nav>
+        <a href="home.html"><img src="./image/logo.png" /></a>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="donation.html">DONATION</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact</h1>
+    </section>
 
-<section class="contact-us">
-    <div class="row">
+    <section class="contact-us">
+      <div class="row">
         <div class="contact-col">
-            <div>
-                <i class="fa fa-home"></i>
-                <span>
-                    <h5>Pandharpur District solapur, Maharashtra,</h5>
-                    
-                </span>
-            </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <span>
-                    <h5></h5>
-                    <h5>Phone: +91-9876543210 </h5>
-                </span>
-            </div>
-            <div>
-                <i class="fa  fa-envelope"></i>
-                <span>
-                    <h5>Email: templetrust@abc.com</h5>
-                </span>
-            </div>
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Pandharpur District solapur, Maharashtra,</h5>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5></h5>
+              <h5>Phone: +91-9876543210</h5>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <span>
+              <h5>Email: templetrust@abc.com</h5>
+            </span>
+          </div>
         </div>
         <div class="contact-col">
-        <form action="">
-            <input type="text" placeholder="Enter yuor name" required>
-            <input type="email" placeholder="Enter yor Email" required>
-            <input type="text" placeholder="Enter yuor address" required>
+          <form action="">
+            <input type="text" placeholder="Enter yuor name" required />
+            <input type="email" placeholder="Enter yor Email" required />
+            <input type="text" placeholder="Enter yuor address" required />
             <textarea rows="8" placeholder="Message" required></textarea>
             <button type="submit" class="hero-btn red-btn">Send message</button>
-        </form>
-       </div>
-    </div>
-
-</section>
-
-<section class="footer">
-    <h4>About Us</h4>
-    <p>Vithal–Rakhumai Temple Trust <br>
-Pandharpur Village, Taluka solapur, District solapur, Maharashtra,<br> India 
-Phone: +91-9876543210 
-Email: templetrust@abc.com 
-        contact:984756201
-        Email:pandharpur@3425</p>
-        <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-twitter"></i>
+          </form>
         </div>
-        <p>Made with <i class="fa fa-heart-o"></i> by the Temple Trust</p>
-</section>
+      </div>
+    </section>
 
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Vithal–Rakhumai Temple Trust <br />
+        Pandharpur Village, Taluka solapur, District solapur, Maharashtra,<br />
+        India Phone: +91-9876543210 Email: templetrust@abc.com contact:984756201
+        Email:pandharpur@3425
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by the Temple Trust</p>
+    </section>
 
-<script>
+    <script>
+      var navLinks = document.getElementById("navLinks");
 
-    var navLinks = document.getElementById("navLinks");
-
-    function showMenu(){
+      function showMenu() {
         navLinks.style.right = "0";
-    }
-    function hideMenu(){
+      }
+      function hideMenu() {
         navLinks.style.right = "-200px";
-    }
-
-</script>
-    
-</body>
+      }
+    </script>
+  </body>
 </html>
